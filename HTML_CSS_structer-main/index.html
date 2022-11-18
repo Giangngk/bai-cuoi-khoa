@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Zone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Line Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <!-- Font Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Josefin+Sans:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font ROboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="top">
+      <div class="header__left">
+        <img src="./Image/logo (1).png" alt="" />
+      </div>
+      <div class="header__mid">
+        <ul>
+          <li><a href="#">Homes</a></li>
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Abouts</a></li>
+          <li><a href="#">Latests</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Pagess</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="header__right">
+        <ul>
+          <li>
+            <a href="#"><i class="las la-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="las la-user"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="las la-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__bar" onclick="toggle()">
+        <button>MENU <i class="las la-bars"></i></button>
+        <ul>
+          <li><a href="#">Homes</a></li>
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Abouts</a></li>
+          <li><a href="#">Latests</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Pagess</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner__title">
+          <h2 class="animated animate__slideInRight">
+            Select Your New
+            <br />
+            Perfect Style
+          </h2>
+          <p class="animated animate__slideInRight col-9">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat is aute irure.
+          </p>
+          <button class="animated animate__slideInRight">SHOP NOW</button>
+        </div>
+        <div class="banner__img">
+          <img src="./Image/watch.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- New Arrivals -->
+    <section class="arrival">
+      <div class="container">
+        <h2>New Arrivals</h2>
+        <div class="arrivals__product">
+          <div class="row">
+            <div class="arrivals__prosuct-item col-lg-4 col-md-6 col-sm-12">
+              <div class="item-img">
+                <img src="./Image/new_product1.png" alt="" />
+              </div>
+              <div class="item-title">
+                <h4>Thermo Ball Etip Gloves</h4>
+                <p>$ 45,743</p>
+              </div>
+            </div>
+            <div class="arrivals__prosuct-item col-lg-4 col-md-6 col-sm-12">
+              <div class="item-img">
+                <img src="./Image/new_product2.png" alt="" />
+              </div>
+              <div class="item-title">
+                <h4>Thermo Ball Etip Gloves</h4>
+                <p>$ 45,743</p>
+              </div>
+            </div>
+            <div class="arrivals__prosuct-item col-lg-4 col-md-6 col-sm-12">
+              <div class="item-img">
+                <img src="./Image/new_product3.png" alt="" />
+              </div>
+              <div class="item-title">
+                <h4>Thermo Ball Etip Gloves</h4>
+                <p>$ 45,743</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrivals__img">
+        <div class="arrivals__img-item item-1">
+          <img src="./Image/gallery1.png" alt="" />
+        </div>
+        <div class="arrivals__img-item item-2">
+          <img src="./Image/gallery2.png" alt="" />
+        </div>
+        <div class="arrivals__img-item">
+          <img src="./Image/gallery3.png" alt="" />
+        </div>
+        <div class="arrivals__img-item">
+          <img src="./Image/gallery4.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Popular Items -->
+    <section class="popular">
+      <div class="container text-center">
+        <div class="popular__title">
+          <h2>Popular Items</h2>
+          <p class="col-7">
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+            gravida.
+          </p>
+        </div>
+        <div class="popular__product">
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular1.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular2.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular3.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular4.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular5.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+          <div class="popular__product-item">
+            <div class="item-img">
+              <i class="lar la-heart"></i>
+              <img src="./Image/popular6.png" alt="" />
+              <span>Add to cart</span>
+            </div>
+            <div class="item-title">
+              <h4>Thermo Ball Etip Gloves</h4>
+              <p>$ 45,743</p>
+            </div>
+          </div>
+        </div>
+        <button>VIEW MORE PRODUCTS</button>
+      </div>
+    </section>
+    <!-- Video -->
+    <section class="video">
+      <iframe
+        width="1263"
+        height="609"
+        src="https://www.youtube.com/embed/KMc6DyEJp04"
+        title="Prickly Situation – Munki and Trunk Season 1 #7"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <button>NEXT VIDEO <i class="las la-arrow-right"></i></button>
+      <div class="video__overlay"></div>
+      <div class="video__play" onclick="add()"><i class="fa fa-play"></i></div>
+    </section>
+    <!-- Watch of choice -->
+    <section class="choice">
+      <div class="container">
+        <div class="choice__item choice__title">
+          <h2>Watch of Choice</h2>
+          <p>
+            Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse.
+          </p>
+          <button>SHOW WATCHES</button>
+        </div>
+        <div class="choice__item choice__img">
+          <img src="./Image/popular6.png" alt="" />
+        </div>
+        <div class="choice__item choice__img">
+          <img src="./Image/popular4.png" alt="" />
+        </div>
+        <div class="choice__item choice__title">
+          <h2>Watch of Choice</h2>
+          <p>
+            Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse.
+          </p>
+          <button>SHOW WATCHES</button>
+        </div>
+      </div>
+    </section>
+    <!-- Method area -->
+    <section class="method">
+      <div class="container">
+        <div class="row">
+          <div class="method__item col-md-6 col-sm-12 col-lg-4">
+            <i class="las la-cube"></i>
+            <h4>Free Shipping Method</h4>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+          </div>
+          <div class="method__item col-md-6 col-sm-12 col-lg-4">
+            <i class="las la-unlock"></i>
+            <h4>Secure Payment System</h4>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+          </div>
+          <div class="method__item col-md-6 col-sm-12 col-lg-4">
+            <i class="las la-sync"></i>
+            <h4>Secure Payment System</h4>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact__item col-lg-3 col-md-6 col-sm-12">
+            <img src="./Image/logo (1).png" alt="" />
+            <p>
+              Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf
+              sed do eiusmod tem.
+            </p>
+          </div>
+          <div class="contact__item col-lg-3 col-md-6 col-sm-12">
+            <h4>Quick Links</h4>
+            <a href="#">About</a>
+            <a href="#">Offer & Discounts</a>
+            <a href="#">Get Coupon</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="contact__item col-lg-3 col-md-6 col-sm-12">
+            <h4>New Products</h4>
+            <a href="#">Woman Cloth</a>
+            <a href="#">Fashion Accessories</a>
+            <a href="#">Man Accessories</a>
+            <a href="#">Rubber made Toys</a>
+          </div>
+          <div class="contact__item col-lg-3 col-md-6 col-sm-12">
+            <h4>Support</h4>
+            <a href="#">Frequently Asked Questions</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Report a Payment Issue</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-sm-12 footer__left">
+            Copyright ©2022 All rights reserved | This template is made with
+            <span><i class="las la-heart"></i></span> by
+            <a href="https://colorlib.com/">Colorlib</a>
+          </div>
+          <div class="col-md-2 col-sm-12 footer__right">
+            <a href="#"><i class="lab la-twitter"></i></a>
+            <a href="#"><i class="lab la-facebook-f"></i></a>
+            <a href="#"><i class="lab la-behance"></i></a>
+            <a href="#"><i class="las la-globe-africa"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="backToTop">
+      <a href="#top"><i class="las la-angle-double-up"></i></a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Js menu -->
+    <script>
+      function toggle() {
+        document.querySelector(".menu__bar").classList.toggle("active");
+      }
+      function add() {
+        document.querySelector(".video").classList.add("active");
+      }
+      function scrolled() {
+        var btn = document.querySelector(".backToTop");
+        if (window.scrollY > 1500) {
+          btn.classList.add("show");
+        } else {
+          btn.classList.remove("show");
+        }
+      }
+      window.addEventListener("scroll", scrolled);
+    </script>
+  </body>
+</html>
